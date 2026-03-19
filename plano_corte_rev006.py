@@ -1143,6 +1143,7 @@ def main():
         # Monta nome do arquivo
         ancora_safe = ancora.replace('/', '_').replace('"', 'in').replace(',', '-').replace(' ', '_')
         timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
+        
         esp_str = str(espessura).replace('.', '-')
         tipo_str = tipo.replace(' ', '_')
 
